@@ -1,6 +1,6 @@
 var SecureStorage;
 
-var SUPPORTED_PLATFORMS = ['android', 'ios', 'windows'];
+var SUPPORTED_PLATFORMS = ['ios'];
 
 var _checkCallbacks = function (success, error) {
     if (typeof success != 'function') {
